@@ -1,0 +1,34 @@
+.main{
+     position: absolute;
+     right: 0px;
+ 
+    display: flex;
+    margin-right: 30px;
+    width: max-content;
+    height: inherit;
+    text-align: right;    
+ 
+}
+.main div{
+   
+}
+.notifi{
+    align-self: last baseline;
+}
+.notifi img{
+    height: 30px;
+    transform: translateY(10px);
+}
+.name{
+    
+    align-self: last baseline;
+     font-size: x-large;
+     padding: 0px;
+     margin: 0px 50px 0px 30px;
+}
+.account{
+    align-self: top;
+}
+.account img{
+    height: 100%;
+}

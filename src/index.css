@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ 
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+   
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#0055ff82; 
+  height: 150px;
+}
+body{
+  background-image: url('./Images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a{
+  text-decoration: none;
+}

@@ -1,0 +1,42 @@
+.main{
+    float: left;
+    width:max-content;
+    background-color: #0055ff28;
+    height: inherit;
+    border-radius: 10px;
+    display: block;
+    border-radius: 5px;
+    margin-left:50px ;
+}
+
+.main h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin:  6px 0px;
+    top: 0px;
+}
+.notification{
+    background-color:#aec9ff94 ;
+    min-height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.notification p{
+    margin: 0px;
+    text-align: center;
+}
+.notifications{ 
+    
+    width:300px;
+    height: 80%;
+    display: block;
+    overflow-y: scroll;
+}
+.notification:first-child{
+    margin-top: 5px;
+}
+.notifications::-webkit-scrollbar,.main::-webkit-scrollbar {
+    display:none;
+ }

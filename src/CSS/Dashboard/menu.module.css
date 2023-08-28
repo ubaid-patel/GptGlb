@@ -1,0 +1,40 @@
+ .main{
+    display: flex;
+    height: 100vh;
+ }
+ .menu{
+    align-self: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: max-content;
+    padding: 45px 0px;
+    height: max-content; 
+}
+
+.menu hr{
+border:1px solid #6D55CD;
+width: 99%;
+}
+.option img,.optionHead img{
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+    margin-right: 6px;
+}
+.option,.optionHead{
+    font-size: large;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 5px 40px 5px 30px;
+    text-align: left;
+}
+.option{
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.option:hover,.active{
+    background-color: #433422;
+}

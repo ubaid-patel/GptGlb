@@ -1,0 +1,31 @@
+.main{
+    max-width: 100%;
+    text-align: left;
+    display: flex;
+    padding: 20px 40px  60px 40px;
+    background-color: #0055ff28;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+.sitemap,.policies,.disclaimer{
+    flex: 1;
+}
+.sitemap ul,.policies ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.sitemap{
+    margin-left: 20px;
+}
+.sitemap h3,
+.sitemap h4,
+.policies h3,
+.policies h4,
+.disclaimer h3,
+.disclaimer p{
+    margin: 2px;
+}
+.disclaimer p{
+    font-size: 1.2rem;
+}
