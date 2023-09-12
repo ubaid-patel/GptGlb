@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Polytechnic College Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Polytechnic College Management App documentation. This app serves as a robust platform to manage various aspects of college operations, providing distinct user roles including HOD, Faculty, Student, and Admin. With features like IA Marks Upload, Results Upload with Excel Import, Attendance Management, and Subject Allocation to Faculty, this app streamlines college administration and enhances communication.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### User Roles
 
-### `npm start`
+- **Admin:** Has access to all functionalities. Responsible for managing users, configuring system settings, and overseeing overall app usage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **HOD (Head of Department):** Manages academic activities within a department. Can allocate subjects to faculty and review results.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Faculty:** Records attendance, uploads internal assessment (IA) marks, and manages course-related activities.
 
-### `npm test`
+- **Student:** Views attendance, IA marks, and results. Can communicate with faculty and HOD.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### IA Marks Upload
 
-### `npm run build`
+Faculty members can upload internal assessment marks for various subjects using Excel files. The system ensures secure data handling and keeps track of the uploaded marks.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Results Upload with Excel Import
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+HOD can upload students' results using Excel files. The system validates and processes the data, ensuring accurate and efficient result management.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Mark Attendance
 
-### `npm run eject`
+Faculty members mark attendance for their respective classes. The app provides an intuitive interface to track attendance records and generate reports.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Subject Allocation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+HOD can allocates subjects to faculty members. This feature facilitates effective course distribution and management within departments.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Api integration
+This app uses gptglb-api in backend and it is already integrated well in this project you for more info visit [https://github.com/ubaidpatel595/gptglbapi](https://github.com/ubaidpatel595/gptglbapi)
+### Depolyemnt
+For Demo visit [https://gptglb.vercel.app](https://gptglb.vercel.app)
 
-## Learn More
+1. Clone this repository to your local machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/ubaidpatel595/gptglbui
+cd gptglbui
+```
+### Install the required dependencies using npm:
+```
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Run the application:
 
-### Analyzing the Bundle Size
+```
+npm start
+```
+Access the app by opening http://localhost:3000 in your web browser.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Contributing
+We encourage contributions from the community. 
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Support
+For any questions or assistance, contact us at ubaidpatel595@gmail.com

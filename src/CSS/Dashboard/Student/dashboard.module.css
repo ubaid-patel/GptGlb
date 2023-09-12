@@ -1,7 +1,7 @@
 .main{
     display: flex;
     height: max-content;
-    width: 100vw;
+    width: 100%;
 }
 .content{
     height: 100vh;
@@ -11,6 +11,7 @@
 }
 .menu{
     width: max-content;
+    height: 100vh;
 }
 .charts{
     margin-top: 50px;
@@ -31,4 +32,3 @@
     position: relative;
     margin-left: 40%;
  }
-

@@ -72,3 +72,21 @@
     display: inline-block;
     text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .carousel{
+        width: 95%;
+        height: 250px;
+        margin: auto;
+        overflow: hidden;
+        position: relative;
+         
+    }
+    .carousel img{
+        border-radius: 20px;
+    }
+
+    .prevbtn,.nextbtn{
+        display: none;
+    }
+}

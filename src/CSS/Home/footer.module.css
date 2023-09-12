@@ -29,3 +29,29 @@
 .disclaimer p{
     font-size: 1.2rem;
 }
+@media only screen and (max-width: 600px) {
+    .main{
+        display: block;
+        align-items: flex-start;
+        height: max-content;
+    }
+    .sitemap{
+        float: left;
+        margin-bottom: 20px;
+    }
+    .policies{
+        float: right;
+        margin-bottom: 65px;
+ 
+    }
+    .disclaimer{
+        display: inline;
+        text-align: left;
+    }
+    .disclaimer h3,.disclaimer p{
+        text-align: left;
+        width: max-content;
+        display: inline;
+        
+    }
+ }

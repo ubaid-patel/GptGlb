@@ -14,6 +14,7 @@ function Carousel() {
     const offset = useRef(0);
     const autoScroll = useRef({ done: false, id: null })
     const images = [img1, img2, img3,img4];
+    const touchRef = useRef(0)
 
 
 
@@ -94,9 +95,20 @@ function Carousel() {
         nextImage();
         return ()=>clearTimeout(autoScroll.current.id);
     },[])
+
+    function swipe(event){
+        const x = touchRef.current[0].clientX - event.changedTouches[0].clientX;
+        const y = Math.abs(touchRef.current[0].clientY - event.changedTouches[0].clientY);
+       
+        if(x > 10 && y < 50){
+            scroll(1)
+        }else if(x < -10 && y < 50){
+            scroll(-1)
+        }
+    }
     return (
         <div className={styles.main}>
-            <div className={styles.carousel}>
+            <div className={styles.carousel} onTouchStart={(e)=>{touchRef.current = e.changedTouches}} onTouchEnd={swipe}>
                 <div className={styles.prevbtn}>
                     <img src={carouselBtn} onClick={() => { scroll(-1) }} />
                 </div>

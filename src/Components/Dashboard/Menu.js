@@ -15,7 +15,7 @@ function Menu({options}) {
                 return (
                     <div className={styles.option} onClick={option.onClick}>
                         <img src={option.icon}></img>
-                        <span>{option.title}</span>
+                        <p>{option.title}</p>
                     </div>
                 )
             })}

@@ -40,3 +40,12 @@
 .circulars::-webkit-scrollbar,.main::-webkit-scrollbar {
     display:none;
  }
+ 
+ @media only screen and (max-width: 600px) {
+    .main{
+        float: none;
+        height: 100px;
+        margin: auto;
+        height: 250px;
+    }
+ }

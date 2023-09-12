@@ -41,3 +41,16 @@
     width: 80px;
     height: 80px;
 }
+@media only screen and (max-width: 600px) {
+ 
+    .flex{
+        align-items: flex-start;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        height: 150px;
+    }
+ 
+    .flex::-webkit-scrollbar{
+        display: none;
+    }
+ }

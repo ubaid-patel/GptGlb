@@ -1,4 +1,4 @@
- .main{
+.main{
     display: flex;
     height: 100vh;
  }
@@ -32,9 +32,63 @@ width: 99%;
     text-align: left;
 }
 .option{
-    margin-top: 30px;
+    margin-top: 1px;
     transition: 0.3s;
 }
 .option:hover,.active{
     background-color: #433422;
 }
+@media only screen and (max-width: 600px) {
+    .menu{
+    display: flex;
+      flex-direction: row;
+      position: fixed;
+      bottom: 20px;
+      z-index: 100;
+      padding: none;
+      margin: none;
+      width: max-content;
+      padding-left: 10px;     
+      border-radius: 0px;
+    }
+    .menu{
+        height: 20px;
+    }
+    .main{
+        padding: none;
+        margin: none;
+        width: max-content;
+        height: max-content;
+    }
+    .optionHead:first-child{
+        display: none;
+    }
+   
+    .menu hr{
+        display: none;
+    }
+    .option{
+        padding: 0px;
+        margin: 0px;
+        width: max-content;
+        margin: 0px;
+        padding: 0px;
+        font-size: small;
+        margin-right: 12px;
+    }
+    .option{
+        display: flex;
+        flex-direction: column;
+    }
+    .option p,.option img{
+        flex: 1;
+        display: block;
+        padding: 0px;
+        margin: 0px;
+    }
+    .option p{
+        margin-top: 4px;
+    }
+   
+   
+ }
